@@ -5,10 +5,11 @@
     
     shu funksiya qancha Class funksiya yaratilsa xam ozi avtomotik yuklayveradi.
     spl_autoload_register(function ($class_name){include 'oop-darslar/classes'. $class_name . '.php';});
-
-    100ta fileni require qilib yozgandan kora 1 qator funksiya yozib yuklagan yaxshi
-
     
-*/
+    100ta fileni require qilib yozgandan kora 1 qator funksiya yozib yuklagan yaxshi
+    
+    
+    */
+    spl_autoload_register(function ($class_name){include 'oop-darslar/classes'. $class_name . '.php';});
 
 require_once 'autoload.php';

@@ -9,3 +9,14 @@
     3) clone soz ishlatilmasa yangi variable refrence saqlamaydi va garbage kollection ishlaydi.
 
 */
+// 1)
+
+$test = "aaa";
+
+$test2 = $test;
+
+// 2)
+
+$app = 'mevalar uchun project';
+
+$app2 = clone $app;
