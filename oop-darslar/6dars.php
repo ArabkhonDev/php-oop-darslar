@@ -8,7 +8,6 @@
     ----------------------------------------------------
     implement sozi orqali interfase ishlatish mumkin. extends sozi bilan ishlata olmaymiz.
 
-
 */
 
 interface Animal {

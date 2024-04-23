@@ -25,6 +25,9 @@ class Dog{
     }
 }
 
+class Tiger extends Dog{
+    
+}
 
 class Tezer extends Dog{
 

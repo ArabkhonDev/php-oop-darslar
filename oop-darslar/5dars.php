@@ -11,8 +11,8 @@
 abstract class Car
 {
     //property or attribute
-    // protected $model;
-    public $model;
+    protected $model;
+    // public $model;
     public function __construct($model)
     {
         $this->model = $model;
@@ -23,7 +23,7 @@ abstract class Car
 
 class ElectricCar extends Car{
     public function stop(){
-        return true;
+        // return true;
     }
 }
 

@@ -36,8 +36,11 @@ class Car
 }
 
 
-class ElectricCar extends Car
+final class ElectricCar extends Car
 {
+    public function stop(){
+        return 'stop';
+    }
 }
 
 // class RaceCar extends Car

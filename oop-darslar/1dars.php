@@ -25,10 +25,10 @@ class Car
         $this->model = $model;
     }
 
-    public function getModel($model){
+    private function getModel($model){
         return $model;
     }
 }
-$bmw = new Car();
+$bmw = new Car('', '', 2023);
 $bmw->setModel('bmw i8');
 echo $bmw->model;
